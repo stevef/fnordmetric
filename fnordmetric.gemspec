@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
   s.add_dependency "rack-test"
   s.add_dependency "multi_json"
   s.add_dependency "thin"
-  s.add_dependency "activesupport"
+  s.add_dependency "activesupport", "~> 3.1.0"
 
   s.add_development_dependency "oj"
   s.add_development_dependency "delorean"
